@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPositionInAlphabet", "FindPositionInAlphabet\FindPositionInAlphabet.csproj", "{C3B9FAFE-75F1-4688-B9C3-80FF32DA7658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsHillelCourseComponent", "UnitTestsHillelCourseComponent\UnitTestsHillelCourseComponent.csproj", "{B9B7B906-5645-41CB-82F0-0A6CEE704BF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3B9FAFE-75F1-4688-B9C3-80FF32DA7658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B9FAFE-75F1-4688-B9C3-80FF32DA7658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B9FAFE-75F1-4688-B9C3-80FF32DA7658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B9FAFE-75F1-4688-B9C3-80FF32DA7658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B7B906-5645-41CB-82F0-0A6CEE704BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B7B906-5645-41CB-82F0-0A6CEE704BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B7B906-5645-41CB-82F0-0A6CEE704BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B7B906-5645-41CB-82F0-0A6CEE704BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47A6BC30-09A1-4A30-BD8B-C697E3B6763C}
+	EndGlobalSection
+EndGlobal

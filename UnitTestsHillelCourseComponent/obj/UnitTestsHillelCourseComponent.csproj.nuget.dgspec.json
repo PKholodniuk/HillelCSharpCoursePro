@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\UnitTestsHillelCourseComponent\\UnitTestsHillelCourseComponent.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\FindPositionInAlphabet\\FindPositionInAlphabet.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\FindPositionInAlphabet\\FindPositionInAlphabet.csproj",
+        "projectName": "FindPositionInAlphabet",
+        "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\FindPositionInAlphabet\\FindPositionInAlphabet.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\UnitTestsHillelCourseComponent\\UnitTestsHillelCourseComponent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\UnitTestsHillelCourseComponent\\UnitTestsHillelCourseComponent.csproj",
+        "projectName": "UnitTestsHillelCourseComponent",
+        "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\UnitTestsHillelCourseComponent\\UnitTestsHillelCourseComponent.csproj",
+        "packagesPath": "C:\\Users\\38067\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\UnitTestsHillelCourseComponent\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\38067\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\FindPositionInAlphabet\\FindPositionInAlphabet.csproj": {
+                "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\FindPositionInAlphabet\\FindPositionInAlphabet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

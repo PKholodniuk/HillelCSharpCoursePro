@@ -1,0 +1,7 @@
+C:\Users\38067\source\repos\HillelCourseCSharpPro\FindPositionInAlphabet\bin\Debug\FindPositionInAlphabet.exe.config
+C:\Users\38067\source\repos\HillelCourseCSharpPro\FindPositionInAlphabet\bin\Debug\FindPositionInAlphabet.exe
+C:\Users\38067\source\repos\HillelCourseCSharpPro\FindPositionInAlphabet\bin\Debug\FindPositionInAlphabet.pdb
+C:\Users\38067\source\repos\HillelCourseCSharpPro\FindPositionInAlphabet\obj\Debug\FindPositionInAlphabet.csproj.AssemblyReference.cache
+C:\Users\38067\source\repos\HillelCourseCSharpPro\FindPositionInAlphabet\obj\Debug\FindPositionInAlphabet.csproj.CoreCompileInputs.cache
+C:\Users\38067\source\repos\HillelCourseCSharpPro\FindPositionInAlphabet\obj\Debug\FindPositionInAlphabet.exe
+C:\Users\38067\source\repos\HillelCourseCSharpPro\FindPositionInAlphabet\obj\Debug\FindPositionInAlphabet.pdb
