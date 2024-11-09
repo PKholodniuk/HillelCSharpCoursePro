@@ -9,14 +9,14 @@ namespace FindPositionInAlphabet
 
         public static bool IsEnglishLetter(this char letter)
         {
-            bool isEnglishLetter = GetListOfEnglishLetters.Any(x => x.ToString().Equals(letter.ToString().ToLower()));
+            bool isEnglishLetter = GetListOfEnglishLetters.Any(x => x.Equals(char.ToLower(letter)));
 
             return isEnglishLetter;
         }
 
         public static int ReturnPositionInEnglishAlphabet(this char letter)
         {
-            var indexerOfAlphabet = GetListOfEnglishLetters.FindIndex(x => x.Equals(letter.ToString().ToLower()[0]));
+            var indexerOfAlphabet = GetListOfEnglishLetters.FindIndex(x => x.Equals(char.ToLower(letter)));
             var positionInAlphabet = indexerOfAlphabet + 1;
             return positionInAlphabet;
         }
