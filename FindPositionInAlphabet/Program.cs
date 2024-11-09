@@ -17,22 +17,26 @@ namespace FindPositionInAlphabet
                 letter = Console.ReadLine();
                 
                 length = letter.Length == 1;
-                isEnglishLetter = letter[0].IsEnglishLetter();
+                
+                char charConsole = letter[0];
+
+                isEnglishLetter = charConsole.IsEnglishLetter();
+                
                 doWhile = isEnglishLetter && length;
 
                 if (doWhile)
                 {
-                    var indexerOfAlphabet = letter[0].ReturnPositionInEnglishAlphabet();
+                    var indexerOfAlphabet = charConsole.ReturnPositionInEnglishAlphabet();
 
                     Console.WriteLine($"Your letter: {letter} has position: {indexerOfAlphabet} in English alphabet");
 
-                    if (letter[0].ToString() == letter[0].ToString().ToLower())
+                    if (charConsole == char.ToLower(charConsole))
                     {
-                        Console.WriteLine($"Your letter: {letter} looks: {letter[0].ToString().ToUpper()} in another register");
+                        Console.WriteLine($"Your letter: {letter} looks: {char.ToUpper(charConsole)} in another register");
                     }
                     else
                     {
-                        Console.WriteLine($"Your letter: {letter} looks: {letter[0].ToString().ToLower()} in another register");
+                        Console.WriteLine($"Your letter: {letter} looks: {char.ToLower(charConsole)} in another register");
                     }
                 }
                 else
