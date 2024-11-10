@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace FindSubstring
 {
@@ -17,12 +16,8 @@ namespace FindSubstring
 
             if (result)
             {
-                var r = FindFirstIndexOfSubstring(text, substring);
-
-                var getSubstring = text.Substring(r[0], substring.Length);
-
-                Console.WriteLine($"You entered: \"{getSubstring}\" " +
-                        $"and first substring starts from index: {r[0]} and ends index: {r[0] + substring.Length}");
+                Console.WriteLine($"You entered: \"{substring}\" " +
+                        $"and this substring is in the text");
             }
             else
             {
@@ -30,21 +25,6 @@ namespace FindSubstring
             }
 
             Console.ReadLine();
-        }
-
-        static List<int> FindFirstIndexOfSubstring(string text, string searchSubstring)
-        {
-            List<int> positions = new List<int>();
-
-            var index = text.IndexOf(searchSubstring);
-
-            while (index != -1)
-            {
-                positions.Add(index);
-                index = text.IndexOf(searchSubstring, index + 1);
-            }
-
-            return positions;
         }
     }
 }

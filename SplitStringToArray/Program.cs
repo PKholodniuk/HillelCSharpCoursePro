@@ -22,7 +22,6 @@ namespace SplitStringToArray
 
         static string[] SplitStringToArray(string input, char charSplit)
         {
-            input = input.Replace(" ", "");
             var countSplitSymbol = input.Where(x => x == charSplit).Count();
 
             string[] result = new string[countSplitSymbol+1];
