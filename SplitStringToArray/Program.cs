@@ -36,13 +36,19 @@ namespace SplitStringToArray
             {
                 if (charArray[i] == charSplit)
                 {
+                    result[j] = builder.ToString();
                     j++;
-                    builder = new StringBuilder();
+                    builder.Clear();
                     continue;
                 }
                 else
                 {
-                    result[j] = builder.Append(charArray[i]).ToString();
+                    builder.Append(charArray[i]);
+
+                    if (i == charArray.Length-1)
+                    {
+                        result[j] = builder.ToString();
+                    }
                 }
             }
 
