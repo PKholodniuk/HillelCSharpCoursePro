@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ReverseString
 {
@@ -27,7 +24,7 @@ namespace ReverseString
 
             for (int i = 0; i < str.Length /2; i++)
             {
-                char tmp = str[i];
+                char tmp = charArray[i];
                 charArray[i] = charArray[charArray.Length - i - 1];
                 charArray[charArray.Length - i - 1] = tmp;
             }
