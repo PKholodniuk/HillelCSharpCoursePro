@@ -7,11 +7,11 @@ namespace FindHoleInArray
     {
         static void Main(string[] args)
         {
-            int[] ints = { 2, 3, 4, 5, 6, 8, 9 };
+            int[] ints = {-1, 0, 1, 2, 3, 4, 5, 6, 8, 9 };
             
             WriteResult(FindHoleInArray(ints));
 
-            int[] ints2 = { 2, 3, 4, 5 };
+            int[] ints2 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
             WriteResult(FindHoleInArray(ints2));
 
