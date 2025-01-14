@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UnitTestsHillelCourseComponent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e88c260c8a2058492794a4b5567da8f9d3499661")]
 [assembly: System.Reflection.AssemblyProductAttribute("UnitTestsHillelCourseComponent")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UnitTestsHillelCourseComponent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

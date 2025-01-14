@@ -4,11 +4,56 @@
     "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\UnitTestsHillelCourseComponent\\UnitTestsHillelCourseComponent.csproj": {}
   },
   "projects": {
+    "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\ConvertNumberToWords\\ConvertNumberToWords.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\ConvertNumberToWords\\ConvertNumberToWords.csproj",
+        "projectName": "ConvertNumberToWords",
+        "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\ConvertNumberToWords\\ConvertNumberToWords.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
     "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\FindPositionInAlphabet\\FindPositionInAlphabet.csproj": {
       "restore": {
         "projectUniqueName": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\FindPositionInAlphabet\\FindPositionInAlphabet.csproj",
         "projectName": "FindPositionInAlphabet",
         "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\FindPositionInAlphabet\\FindPositionInAlphabet.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\StringGenerator\\StringGenerator.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\StringGenerator\\StringGenerator.csproj",
+        "projectName": "StringGenerator",
+        "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\StringGenerator\\StringGenerator.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\SymmetricEncryption\\SymmetricEncryption.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\SymmetricEncryption\\SymmetricEncryption.csproj",
+        "projectName": "SymmetricEncryption",
+        "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\SymmetricEncryption\\SymmetricEncryption.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}
@@ -44,8 +89,17 @@
           "net48": {
             "targetAlias": "net48",
             "projectReferences": {
+              "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\ConvertNumberToWords\\ConvertNumberToWords.csproj": {
+                "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\ConvertNumberToWords\\ConvertNumberToWords.csproj"
+              },
               "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\FindPositionInAlphabet\\FindPositionInAlphabet.csproj": {
                 "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\FindPositionInAlphabet\\FindPositionInAlphabet.csproj"
+              },
+              "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\StringGenerator\\StringGenerator.csproj": {
+                "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\StringGenerator\\StringGenerator.csproj"
+              },
+              "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\SymmetricEncryption\\SymmetricEncryption.csproj": {
+                "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\SymmetricEncryption\\SymmetricEncryption.csproj"
               }
             }
           }
