@@ -50,6 +50,15 @@
           "build/net35/NUnit3TestAdapter.props": {}
         }
       },
+      "ConvertNumberToWords/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ConvertNumberToWords.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConvertNumberToWords.dll": {}
+        }
+      },
       "FindPositionInAlphabet/1.0.0": {
         "type": "project",
         "compile": {
@@ -57,6 +66,24 @@
         },
         "runtime": {
           "bin/placeholder/FindPositionInAlphabet.dll": {}
+        }
+      },
+      "StringGenerator/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/StringGenerator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StringGenerator.dll": {}
+        }
+      },
+      "SymmetricEncryption/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SymmetricEncryption.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SymmetricEncryption.dll": {}
         }
       }
     }
@@ -170,18 +197,36 @@
         "nunit3testadapter.nuspec"
       ]
     },
+    "ConvertNumberToWords/1.0.0": {
+      "type": "project",
+      "path": "../ConvertNumberToWords/ConvertNumberToWords.csproj",
+      "msbuildProject": "../ConvertNumberToWords/ConvertNumberToWords.csproj"
+    },
     "FindPositionInAlphabet/1.0.0": {
       "type": "project",
       "path": "../FindPositionInAlphabet/FindPositionInAlphabet.csproj",
       "msbuildProject": "../FindPositionInAlphabet/FindPositionInAlphabet.csproj"
+    },
+    "StringGenerator/1.0.0": {
+      "type": "project",
+      "path": "../StringGenerator/StringGenerator.csproj",
+      "msbuildProject": "../StringGenerator/StringGenerator.csproj"
+    },
+    "SymmetricEncryption/1.0.0": {
+      "type": "project",
+      "path": "../SymmetricEncryption/SymmetricEncryption.csproj",
+      "msbuildProject": "../SymmetricEncryption/SymmetricEncryption.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
+      "ConvertNumberToWords >= 1.0.0",
       "FindPositionInAlphabet >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
-      "NUnit3TestAdapter >= 3.16.1"
+      "NUnit3TestAdapter >= 3.16.1",
+      "StringGenerator >= 1.0.0",
+      "SymmetricEncryption >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -212,8 +257,17 @@
         "net48": {
           "targetAlias": "net48",
           "projectReferences": {
+            "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\ConvertNumberToWords\\ConvertNumberToWords.csproj": {
+              "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\ConvertNumberToWords\\ConvertNumberToWords.csproj"
+            },
             "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\FindPositionInAlphabet\\FindPositionInAlphabet.csproj": {
               "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\FindPositionInAlphabet\\FindPositionInAlphabet.csproj"
+            },
+            "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\StringGenerator\\StringGenerator.csproj": {
+              "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\StringGenerator\\StringGenerator.csproj"
+            },
+            "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\SymmetricEncryption\\SymmetricEncryption.csproj": {
+              "projectPath": "C:\\Users\\38067\\source\\repos\\HillelCourseCSharpPro\\SymmetricEncryption\\SymmetricEncryption.csproj"
             }
           }
         }
